@@ -4,12 +4,12 @@ Description: Make 3 web pages based on any model car. QAP1 */
 
 body {
   background-color: rgb(172, 0, 0);
-  width: fit-content;
+  width: 1368px;
   height: fit-content;
-  border: 3px solid black;
-  padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* border: 3px solid black; */
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  margin: 0px;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
     rgb(0, 0, 0, 90),
     #ac0000 100%
   );
-  width: 1312px;
+  width: 100%;
   height: 60px;
   flex-shrink: 0;
   display: inline-flex;
@@ -27,8 +27,18 @@ header {
   gap: 100px;
   color: white;
   padding: 5px;
+  margin-top: 20px;
   padding-left: 70px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  width: 100%;
   word-spacing: 100px;
+  /* display: inline-flex; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 main {
@@ -48,10 +58,6 @@ main p {
   margin-left: 100px;
 }
 
-.imagealign {
-  float: right;
-}
-
 h1 {
   color: #fff;
   text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.45);
@@ -61,19 +67,38 @@ h1 {
   font-weight: 400;
   line-height: normal;
   text-align: left;
+  padding-left: 20px;
 }
 
 footer {
   background: rgba(0, 0, 0, 0.9);
-  width: 1382px;
+  width: 100%;
   height: 30px;
   flex-shrink: 0;
+  /* display: inline-flex; */
+  /* align-items: center; */
+  gap: 100px;
+  color: white;
   padding: 5px;
-  text-align: left;
+  padding-left: 70px;
+  padding-right: 5px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 footer small {
   color: white;
+}
+
+.imagealign {
+  float: right;
+}
+
+.form {
+  float: right;
+  margin-right: 270px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 5px;
 }
 
 .image-container {
