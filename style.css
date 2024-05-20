@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(180deg, #ac0000 0%, #ba7d7d 100%);
+  width: fit-content;
+  height: fit-content;
+  border: 3px solid black;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  width: 1382px;
+  height: 30px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 100px;
+  color: white;
+  padding: 5px;
+}
+
+main {
+  text-align: center;
+}
+
+#whitebox {
+  background-color: white;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.65);
+  width: 1382px;
+  height: 30px;
+  flex-shrink: 0;
+  padding: 5px;
+  text-align: left;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.45);
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
