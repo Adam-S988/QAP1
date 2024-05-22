@@ -1,13 +1,15 @@
 <!-- Name: Adam Stevenson
 Date: May 19-20, 2024
-Description: Create at least 3 web pages about any model of car. Use media. QAP1. -->
+Description: Create at least 3 web pages about any model of car. Use media. QAP1. 
+Sites: https://www.autotrader.ca/research/mazda/cx-3/2016/?gad_source=2&gclid=EAIaIQobChMInv_tpP6ehgMVnoBaBR38ngKEEAEYASAAEgK8cfD_BwE
+https://pixabay.com/sound-effects/search/mazda/-->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Style/style.css" />
     <title>Mazda CX-3</title>
   </head>
   <body>
@@ -16,21 +18,20 @@ Description: Create at least 3 web pages about any model of car. Use media. QAP1
         <a href="index.html">
           <img src="Images/Home.png" alt="Home" margin-left="10px"
         /></a>
-        <a href="about.html">About</a>
-        <a href="pictures.html">Pictures</a>
-        <a href="contact.html">Contact</a>
-        <a href="servicing.html">Servicing</a>
-        <a href="insurance.html">Insurance</a>
+        <a href="Pages/about.html">About</a>
+        <a href="Pages/media.html">Media</a>
+        <a href="Pages/contact.html">Contact</a>
+        <a href="Pages/servicing.html">Servicing</a>
+        <a href="Pages/insurance.html">Insurance</a>
         <img src="Images/Magnify.png" alt="Search" /> <div class="container">
           <div class="container-lg"></div>
     
-            <form action="/data" method="get" id="registration">
+            <form action="/data" method="get" id="search">
               <label for="firstname"></label>
               <input
                 type="text"
-                id="firstname"
-                name="firstname"
-                autofocus
+                id="search"
+                name="search"
                 autocomplete="search"
                 placeholder="Search here"
                 maxlength="50"
@@ -41,9 +42,9 @@ Description: Create at least 3 web pages about any model of car. Use media. QAP1
     </header>
     <main>
       <h1>Mazda CX-3</h1>
-      <p>
+      <div class = "mainp"><p>
         Ride in style with one of our many sleek and comfortable Mazda CX-3s
-      </p>
+      </p></div>
       <div class="image-container">
         <div id="whitebox">
           <img
