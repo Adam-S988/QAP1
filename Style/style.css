@@ -159,6 +159,18 @@ form#registration {
   margin-bottom: 20px;
 }
 
+/* img {
+  height
+} */
+
+.nobullet {
+  list-style-type: none;
+}
+
+.attribute {
+  font-weight: 600;
+}
+
 .mediapic {
   position: relative;
   display: block;
