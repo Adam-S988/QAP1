@@ -1,9 +1,5 @@
 How many hours to complete:
-<<<<<<< HEAD
 A rough estimate would be between 6 and 7 hours
-=======
-A rough estimate would be between 5 and 6 hours
->>>>>>> d4dbeba3f0a4f4153a33cedeb38f802e2a43f1d9
 
 Online resources used:
 YouTube, Mazdqa's website, W3 Schools, Izmostock, Unsplash, Noman's Lectures, Maurice's Lectures, Creative Commons, ChatGPT, Auto Trader, Pixabay
