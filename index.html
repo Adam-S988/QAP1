@@ -1,5 +1,5 @@
 <!-- Name: Adam Stevenson
-Date: May 19-20, 2024
+Date: May 19-25, 2024
 Description: Create at least 3 web pages about any model of car. Use media. QAP1. 
 Sites: https://www.autotrader.ca/research/mazda/cx-3/2016/?gad_source=2&gclid=EAIaIQobChMInv_tpP6ehgMVnoBaBR38ngKEEAEYASAAEgK8cfD_BwE
 https://pixabay.com/sound-effects/search/mazda/
@@ -25,10 +25,11 @@ https://unsplash.com/s/photos/Mazda-CX-3?license=free-->
         <img src="/Images/Magnify.png" alt="Search" />
         <div class="container-lg"></div>
 
-        <form action="/data" method="get" id="search">
-          <label for="firstname"></label>
+        <form action="/data" method="get" id="searchbar">
+          <label for="search"></label>
           <input
             type="text"
+            id="search"
             name="search"
             placeholder="Search here"
             maxlength="50"
@@ -46,30 +47,15 @@ https://unsplash.com/s/photos/Mazda-CX-3?license=free-->
         </p>
       </div>
       <div class="image-container">
-        <div id="whitebox">
-          <img
-            src="Images/cx3-2.jpg"
-            height="600px"
-            width="1000px"
-            alt="Mazda CX-3"
-          />
-        </div>
+        <img src="Images/cx3-2.jpg" alt="Mazda CX-3" />
       </div>
     </main>
     <footer>
-      <small>© 2024 Stevenson Motors</small>
+      <small>&copy; 2024 Stevenson Motors</small>
       <a href="http://facebook.com" target="_blank">
-        <img
-          src="Images/FBook.png"
-          height="25px"
-          alt="facebook"
-          class="imagealign" /></a
+        <img src="Images/FBook.png" alt="facebook" class="imagealign" /></a
       ><a href="http://instagram.com" target="_blank"
-        ><img
-          src="Images/Insta.png"
-          height="25px"
-          alt="Instagram"
-          class="imagealign"
+        ><img src="Images/Insta.png" alt="Instagram" class="imagealign"
       /></a>
     </footer>
   </body>
