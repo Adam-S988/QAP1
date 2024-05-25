@@ -9,9 +9,7 @@
   <body>
     <header>
       <nav>
-        <a href="/index.html">
-          <img src="/Images/Home.png" alt="Home" margin-left="10px"
-        /></a>
+        <a href="/index.html"> <img src="/Images/Home.png" alt="Home" /></a>
         <a href="about.html">About</a>
         <a href="media.html">Media</a>
         <a href="contact.html">Contact</a>
@@ -20,10 +18,11 @@
         <img src="/Images/Magnify.png" alt="Search" />
         <div class="container-lg"></div>
 
-        <form action="/data" method="get" id="search">
-          <label for="firstname"></label>
+        <form action="/data" method="get" id="searchbar">
+          <label for="search"></label>
           <input
             type="text"
+            id="search"
             name="search"
             placeholder="Search here"
             maxlength="50"
@@ -37,11 +36,8 @@
       <div class="flexsection">
         <h1>Video</h1>
         <br /><iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/IS2qraAq3rg?si=G7JlymKGheboDy9y"
+          src="https://www.youtube.com/embed/IS2qraAq3rg?autoplay=1&loop=1&mute=1&playlist=IS2qraAq3rg"
           title="YouTube video player"
-          frameborder="0"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
@@ -52,8 +48,7 @@
         <figure>
           <img
             src="/Images/cx3-2.jpg"
-            alt="Mazda CX-3"
-            height="200px"
+            alt="Exterior of Mazda CX-3"
             class="mediapic"
           />
           <figcaption>Front view of a CX-3</figcaption>
@@ -61,8 +56,7 @@
         <figure>
           <img
             src="/Images/Interior.jpg"
-            alt="Mazda CX-3"
-            height="200px"
+            alt="Driver side interior of Mazda CX-3"
             class="mediapic"
           />
           <figcaption>Interior around the steering wheel</figcaption>
@@ -71,8 +65,7 @@
         <figure>
           <img
             src="/Images/CX3-4.jpg"
-            alt="Mazda CX-3"
-            height="200px"
+            alt="Passenger side interior of Mazda CX-3"
             class="mediapic"
           />
           <figcaption>Interior of the front passenger-side</figcaption>
@@ -80,19 +73,18 @@
         <figure>
           <img
             src="/Images/CX3-5.jpeg"
-            alt="Mazda CX-3. Author: Tokumeigakarinoaoshima"
-            height="200px"
+            alt="Mazda CX-3 with trunk open."
             class="mediapic"
           />
           <figcaption>
-            The rear of the vehicle with the trunk door open
+            The trunk door open.
+            <small>Author: Tokumeigakarinoaoshima</small>
           </figcaption>
         </figure>
         <figure>
           <img
             src="/Images/CX3-7.jpeg"
             alt="Mazda CX-3. Author: Tokumeigakarinoaoshima"
-            height="200px"
             class="mediapic"
           />
           <figcaption>The wheels of a CX-3</figcaption>
@@ -108,19 +100,11 @@
       </div>
     </main>
     <footer>
-      <small>© 2024 Stevenson Motors</small>
+      <small>&copy; 2024 Stevenson Motors</small>
       <a href="http://facebook.com" target="_blank">
-        <img
-          src="/Images/FBook.png"
-          height="25px"
-          alt="facebook"
-          class="imagealign" /></a
+        <img src="/Images/FBook.png" alt="facebook" class="imagealign" /></a
       ><a href="http://instagram.com" target="_blank"
-        ><img
-          src="/Images/Insta.png"
-          height="25px"
-          alt="Instagram"
-          class="imagealign"
+        ><img src="/Images/Insta.png" alt="Instagram" class="imagealign"
       /></a>
     </footer>
   </body>
